@@ -1,0 +1,11 @@
+//@desc Gets token and sets to common header
+import axios from 'axios'
+const setAuth = token => {
+    if(token){
+        axios.defaults.headers.common['x-auth-token'] = token;
+    }else{
+        delete axios.defaults.headers.common['x-auth-token'];
+    }
+};
+
+export default setAuth;

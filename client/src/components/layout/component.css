@@ -1,0 +1,58 @@
+h1{
+      margin-top: 200px;
+  }
+  
+  .logincontainer{
+      padding: 50px;
+      margin-top: 5%;
+      width:400px;
+  }
+
+  .inputgroup{
+      width: 350px;
+  }
+  .btn-container{
+      margin-top: 10px;
+  }
+
+  .btnc{
+      width: 100%;
+  }
+  .landingcontainer{
+      width:100%;
+      text-align: center;
+      height: 100%;
+      background: url("https://www.capcitycreative.ca/wp-content/uploads/2018/08/design.jpg") fixed center no-repeat;
+      background-size: cover;
+      position:fixed;
+      color: white;
+  }
+  .registertext{
+      text-align: center;
+  }
+  .btnlanding{
+      width: 150px;
+      margin: 15px;
+  }
+  .redirecttext{
+      text-align: center;
+      margin-top: 10px;
+      font-size: large;
+  }
+  .myalert{
+      width:100%;
+      position: absolute;
+      text-align: center;
+  }
+  .inputfrm{
+      margin-top: 10px;
+  }
+  .dash-btn{
+      width: 200px;
+  }
+
+ .alert-custom{
+     display: flex;
+     justify-content:flex-end;
+     align-items:flex-end;
+ }
