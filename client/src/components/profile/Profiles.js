@@ -31,7 +31,8 @@ const Profiles = ({ getAllProfiles, profile: { loading, allProfiles } }) => {
                   >
                     Member Profiles
                   </h3>
-                  {allProfiles.length > 0 &&
+                  {allProfiles &&
+                    allProfiles.length > 0 &&
                     allProfiles.map((profile) => {
                       return <ProfileItem key={profile._id} profile={profile} />
                     })}
